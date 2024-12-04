@@ -39,6 +39,7 @@ const TodoInput = (props) => {
         </button>
       </div>
       {/* Display the error message if the field is required */}
+      {/* Lets test this */}
       {error && <p className="error-message">This field is required!</p>}
 
       {/* <div>{inputText}</div> */}
